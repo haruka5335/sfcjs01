@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>情報基礎2 第二回</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
    <p>
@@ -44,6 +45,47 @@
        <input type=text> 
        <input type=submit value="送信">
 　　</p>
+
+   <p>
+       以降はCSSにおける属性についての記述である。<br>
+       基本的なものをまとめた(つもり)であるので、分からなくなったら参考程度に見るように。
+   </p>
+
+   <p>
+       <h4>1.文字の色を変える</h4>
+       文字の色を変えたいときに使うよ。<br>
+       <pre><code>
+       CSS: h4.ex1{color: red;
+            }
+       HTML: &lt;h4 class="ex1"&gt;こんな風にね>&lt;/h4&gt;
+       </code></pre>
+       <h4 class="ex1">こんな風にね<h4>
+   </p>
+   <p>
+       <h4>2.文字の大きさを変える</h4>
+           文字の大きさを変えたいときに使うよ。<br>
+           <pre><code>
+               CSS: h4.ex2{font-size: 30px;
+               }
+               HTML: &lt;h4 class="ex2"&gt;こんな風にね>&lt;/h4&gt;
+           </code></pre>
+        <h4 class="ex2">こんな風にね</h4>
+   </p>
+   <p>
+       <h3>指定の仕方</h3>
+       ここで使っているのはクラス指定。<br>
+       まずHTMLでクラスを指定します。<br>
+       <pre><code>
+       HTML: &lt;h4 class="ex2"&gt;こんな風にね>&lt;/h4&gt;
+       </code></pre>
+       の、「h4 class="ex2"」の部分が指定。<br>
+       「h4の、クラスがex2の所」を変更するようにCSSに書くときは、こう。<br>
+        <pre><code>
+       CSS: h4.ex2{
+            }
+        </code></pre>
+       頑張ってね。<br>
+   </p>
    <br>
 
 
